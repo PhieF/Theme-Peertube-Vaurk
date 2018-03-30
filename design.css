@@ -1,0 +1,151 @@
+/*
+  designed by @KazukyAkayashi@mamot.fr
+  based on exode.me blue theme, variable name might not be accurate ;)
+
+*/
+
+:root {
+    --blue-button: #dc4b3b;
+    --blue-button-hover: #e27265;
+    --dark-blue: #dc4b3b;
+    --less-dark-blue: #dc4b3b;
+}
+
+menu[_ngcontent-c2] .panel-block[_ngcontent-c2] {
+    margin-left: 0px;
+}
+
+menu[_ngcontent-c2] .panel-block[_ngcontent-c2] a[_ngcontent-c2] {
+    height: 100%;
+    line-height: 40px;
+    padding-left: 26px;
+    display: block;
+}
+
+menu[_ngcontent-c2] .block-title[_ngcontent-c2] {
+    padding-left: 26px
+}
+
+menu[_ngcontent-c2] .panel-block[_ngcontent-c2] a[_ngcontent-c2]:hover {
+    background: #f4efef;
+}
+
+.header[_ngcontent-c0] .top-left-block[_ngcontent-c0] .icon.icon-menu[_ngcontent-c0] {}
+
+.top-left-block {
+    flex: unset !important;
+}
+
+#search-video {
+    margin: auto !important;
+}
+
+.upload-button[_ngcontent-c1],
+.upload-button[_ngcontent-c1]:active,
+.upload-button[_ngcontent-c1]:focus,
+menu[_ngcontent-c2] .button-block[_ngcontent-c2] .login-button[_ngcontent-c2],
+menu[_ngcontent-c2] .button-block[_ngcontent-c2] .login-button[_ngcontent-c2]:active,
+menu[_ngcontent-c2] .button-block[_ngcontent-c2] .login-button[_ngcontent-c2]:focus,
+.privacy-concerns .privacy-concerns-okay {
+    color: #fff;
+    background-color: var(--blue-button) !important;
+}
+
+.privacy-concerns a {
+    color: var(--blue-button) !important;
+}
+
+input[type="submit"],
+input[type="submit"]:active,
+.button-file,
+.add-button,
+.submit-button {
+    background-color: var(--blue-button) !important;
+}
+
+input[type="submit"]:hover,
+.button-file:hover,
+.add-button:hover,
+.submit-button:hover,
+.privacy-concerns .privacy-concerns-okay:hover {
+    background-color: var(--blue-button-hover) !important;
+}
+
+.upload-button[_ngcontent-c1]:hover,
+menu[_ngcontent-c2] .button-block[_ngcontent-c2] .login-button[_ngcontent-c2]:hover {
+    color: #fff;
+    background-color: var(--blue-button-hover) !important;
+}
+
+.title-menu-left {
+    z-index: 1;
+}
+
+.header[_ngcontent-c0] {
+    background-color: var(--dark-blue);
+    color: white;
+}
+
+my-header {
+    color: black !important;
+}
+
+menu[_ngcontent-c2] {
+    background-color: black;
+}
+
+.main-col {
+    transition: margin-left 0.5s ease-in-out .1s;
+}
+
+.icon-logo {
+    display: none;
+}
+
+.header[_ngcontent-c0] .top-left-block[_ngcontent-c0] .icon.icon-menu[_ngcontent-c0] {
+    margin: 0px;
+    height: 100%;
+    width: 53px;
+    margin-right: 10px;
+    background-image: url("https://blog.phie.fi/peertube/peertubered.png");
+    background-color: #dc4b3b;
+}
+
+.inner-form-title,
+.account-title {
+    color: var(--less-dark-blue) !important;
+}
+
+input[type="checkbox"]:checked+label {
+    background: var(--less-dark-blue) !important;
+}
+
+p-table p-paginator .ui-paginator-bottom a.ui-state-active,
+p-table p-paginator .ui-paginator-bottom a.ui-state-active:active,
+p-table p-paginator .ui-paginator-bottom a.ui-state-active:focus,
+p-table p-paginator .ui-paginator-bottom a.ui-state-active:hover {
+    background: var(--less-dark-blue) !important;
+}
+
+.title-page.active,
+.title-page.title-page-single {
+    border-bottom: 2px solid var(--dark-blue) !important;
+}
+
+menu {
+    background-color: white !important;
+    color: black !important;
+}
+
+menu a {
+    color: black !important;
+}
+
+.logged-in-email {
+    color: black !important;
+}
+
+.header {
+    background: #363e48 !important;
+    color: white !important;
+}
